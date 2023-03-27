@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>360 Image and Sound</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+<!-- ASSETS -->
+<a-ssets>
+    <img id="sky1" src="_assets/TexturesCom_HDRPanorama0038_trainstation_2K_hdri_sphere_tone.jpg">
+    <img id="sky2" src="_assets/Not360.jpg">
+</a-ssets>
+<!-- A-SKY 360 -->
+<a-sky img
+</a-sky>
+<!-- AMBIENT Sound -->
+<!-- PLANE -->
+<a-plane
+    scale="50 50 1"
+    rotation="-90 0 0"
+    material="color: #FFA299">
+</a-plane>
+<!-- BOX -->
+<a-box
+    position="0 1 -6"
+    rotation="0 30 0"
+    scale="1 1 1"
+    width="2"
+    height="2"
+    depth="2"
+    material="color: #A9014C">
+</a-box>
+</a-scene>
+</body>
+</html>
+
+
+
+

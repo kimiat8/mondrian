@@ -1,0 +1,84 @@
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.bg{
+
+    background-color: rgb(252, 253, 251);}
+
+td {
+    width: 33vw;
+    height: 33vh;
+    border: 10px solid black;
+    padding: 0;
+}
+.red1, .red2, .red3 {
+    background-color: red;
+}
+.blue1,.blue2, .blue3 {
+    background-color: blue;
+}
+.yellow1, .yellow2 {
+    background-color: yellow;
+}
+.black1 {
+    background-color: black;
+}
+.white1, .white2, .white3 {
+    background-color: white;
+}
+
+.block{
+    background-size: cover;
+}
+.red1:hover {
+    background-image: url(/red1.gif);
+}
+.blue1:hover {
+    background-image: url(/blue1.gif);
+}
+.yellow1:hover {
+    background-image: url(/red3.jpg);
+
+}
+.black1:hover {
+    background-image: url(/black1.gif);
+}
+.white1:hover {
+    background-image: url(/white1.gif);
+}
+.block{
+    background-size: cover;
+}
+.red2:hover {
+    background-image: url(/red2.gif);
+}
+.blue2:hover {
+    background-image: url(/blue2.jpg);
+}
+.yellow2:hover {
+    background-image: url(/yellow2.gif);
+}
+.black2:hover {
+    background-image: url(/black1.gif);
+}
+.white2:hover {
+    background-image: url(/white2.jpg);
+}
+.block{
+    background-size: cover;
+}
+.red3:hover {
+    background-image: url(/yellow11.jpg);
+}
+.blue3:hover {
+    background-image: url(/blue3.gif);
+}
+.black1:hover {
+    background-image: url(/black.jpg);
+}
+.white3:hover {
+    background-image: url(/white3.gif);
+}
