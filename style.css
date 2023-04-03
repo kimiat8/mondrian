@@ -1,12 +1,13 @@
 
+
 table {
     border-collapse: collapse;
-    margin: 20px;
+    margin: 50px;
 }
-
 .bg{
 
-    background-color: rgb(252, 253, 251);}
+    background-color: rgb(252, 253, 251);
+background-size: full page;}
 
 td {
     width: 33vw;
@@ -40,23 +41,23 @@ td {
     background-image: url(/blue1.gif);
 }
 .yellow1:hover {
-    background-image: url(/red3.jpg);
+    background-image: url(/33.jpg);
 
 }
 .black1:hover {
     background-image: url(/black1.gif);
 }
 .white1:hover {
-    background-image: url(/white1.gif);
+    background-image: url(/11.jpg);
 }
 .block{
     background-size: cover;
 }
 .red2:hover {
-    background-image: url(/red2.gif);
+    background-image: url(/00.jpg);
 }
 .blue2:hover {
-    background-image: url(/blue2.jpg);
+    background-image: url(/b22.jpg);
 }
 .yellow2:hover {
     background-image: url(/yellow2.gif);
@@ -65,20 +66,20 @@ td {
     background-image: url(/black1.gif);
 }
 .white2:hover {
-    background-image: url(/white2.jpg);
+    background-image: url(/along-the-amstel-jpg.jpg);
 }
 .block{
     background-size: cover;
 }
 .red3:hover {
-    background-image: url(/yellow11.jpg);
+    background-image: url(/red33.jpg);
 }
 .blue3:hover {
     background-image: url(/blue3.gif);
 }
 .black1:hover {
-    background-image: url(/black.jpg);
+    background-image: url(/44.jpg);
 }
 .white3:hover {
-    background-image: url(/white3.gif);
+    background-image: url(/evolution.jpg);
 }

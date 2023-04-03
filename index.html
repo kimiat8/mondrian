@@ -1,42 +1,85 @@
-<!DOCTYPE html>
-<html>
 <head>
-	<title>Mondrian Table</title>
-	<link rel="stylesheet" href="/style.css">
+  <title>Mondrian Portfolio</title>
+  <style>
+    body {
+      background-image: url("1.jpg");
+      background-size: cover;
+    }
 
+    .left-image {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .right-image {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    th.who {
+      background-color: rgba(249, 0, 0, 0.911);
+    }
+
+    th.art {
+      background-color: rgba(8, 8, 244, 0.827);
+    }
+
+    th.edu {
+      background-color: rgba(255, 253, 253, 0.937);
+    }
+
+    th.sale {
+      background-color: rgba(255, 255, 0, 0.866);
+    }
+  </style>
 </head>
-<body>
-	<div class="bg">
-	<table>
-		<tr>
-			<td class="block red1"></td>
-			<td class="block blue1"></td>
-			<td class="block yellow1"></td>
-			<td class="block white1"></td>
-		</tr>
-		<tr>
-			<td class="block red2"></td>
-			<td class="block white2"></td>
-			<td class="block blue2"></td>
-			<td class="block yellow2"></td>
-		</tr>
-		<tr>
-			<td class="block black1"></td>
-			<td class="block white3"></td>
-			<td class="block blue3"></td>
-			<td class="block red3"></td>
-		</tr>
-	</table>
-	</div>
-	<!-- <script>
-		function playGif(color) {
-			var gif = document.createElement("img");
-			gif.setAttribute("src", "path/to/" + color + ".gif");
-			gif.setAttribute("alt", color + " gif");
-			document.body.appendChild(gif);
-		}
-	</script> -->
-</body>
-</html>
 
-</html>
+<body>
+  <center>
+    <h1>Welcome to Piet Mondrian Portfolio</h1>
+  </center>
+  <br>
+  <center>
+    <p></p>
+  </center>
+  <table border="6px" cellspacing="100px" cellpadding="70px" style="width: 60%; margin: 0 auto;">
+    <tr>
+      <th class="who">
+        <h1>Who's</h1>
+        <h2>Piet Mondrian</h2>
+        <ul>
+          <li><a href="https://www.tate.org.uk/kids/explore/who-is/who-piet-mondrian">Who was he</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Piet_Mondrian#Life">Education</a></li>
+
+        </ul>
+      </th>
+      <th colspan="2" class="art">
+        <h1>Art Works</h1>
+        <ul>
+          <li><a href="https://www.wikiart.org/en/piet-mondrian/all-works#!#filterName:all-paintings-chronologically,resultType:masonry">More Examples</a></li>
+        </ul>
+      </th>
+    </tr>
+    <tr>
+      <th colspan="2" class="edu">
+        <h1>My world</h1>
+        <ul>
+          <a href="/indext.html">The link</a>
+        </ul>
+        
+      </th>
+      <th class="sale">
+        <br>
+        <h1>Paintings for sale</h1>
+        <ul>
+          <li><a href="https://www.greatbigcanvas.com/category/mondrian-piet/?coupon=RSVIN&gclid=CjwKCAjwrJ-hBhB7EiwAuyBVXYEuuOV_j8nESAenjcZDOajrAG8vwOwoIkBTyPZEopsiq5O64RnZhhoCYi8QAvD_BwE">Shop</a></li>
+        </ul>
+      </th>
+    </tr>
+  </table>
+  <br>
+</body>
